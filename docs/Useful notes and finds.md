@@ -1,0 +1,4 @@
+- using XSLT to parse and transform XML to HTML
+- using some more advanced technologies like Next.js with React and Tailwind for styling
+- on the page add a multibutton box with values like: full, medium, compact; which will set the width of the Bible text
+- on the page of course add some way to toggle the toggleable features from [here](./Planning%20out%20the%20XML%20schema.md) on and off
