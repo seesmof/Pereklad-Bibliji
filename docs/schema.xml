@@ -1,9 +1,14 @@
 <Book name="Matthew">
-  <Preface>The Book of Matthew is the first Book of the New Testament and the first of the Four Gospels. It was written by a tax collector and the Apostle of Jesus Christ by the name of Levi or Matthew. The Gospel of Matthew includes an incredibly rich account of our Lord's earthly ministry, healings, miracles, sermons, the Passion of our Lord Jesus Christ, the crucifixion and the resurrection. Praise GOD Almighty King Jesus Christ our Holy Living Lord GOD Most High.</Preface>
+  <Preface>The Book of Matthew is the first Book of the New Testament and the first of the Four
+    Gospels. It was written by a tax collector and the Apostle of Jesus Christ by the name of Levi
+    or Matthew. The Gospel of Matthew includes an incredibly rich account of our Lord's earthly
+    ministry, healings, miracles, sermons, the Passion of our Lord Jesus Christ, the crucifixion and
+    the resurrection. Praise GOD Almighty King Jesus Christ our Holy Living Lord GOD Most High.</Preface>
   <Chapter number="4">
     <Heading>Jesus Christ is the Lord of all</Heading>
-    <Verse number="7">
-      <Text>Jesus said to him, <RedLetter>“<Note>Or <i>Again</i></Note>On the other hand, it is written: ‘<Ref>Deut 6:16</Ref><Quote>You shall not put the Lord your God to the test</Quote>.’”</RedLetter>
+    <Verse number="7">Jesus said to him, <RedLetter>“<Note>Or <i>Again</i></Note>On the other hand,
+      it is written: ‘<Ref>Deut 6:16</Ref><Quote>You shall not put the Lord your God to the test</Quote>
+      .’”</RedLetter>
     </Verse>
   </Chapter>
 </Book>
