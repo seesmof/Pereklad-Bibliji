@@ -1,0 +1,33 @@
+{
+  "name": "Standard Ukrainian Bible (SUB)",
+  "description": "Standard Ukrainian Bible (SUB)",
+  "abbreviation": "SUB",
+  "testaments": [
+    {
+      "name": "Old Testament",
+      "abbreviation": "OT",
+      "books": []
+    },
+    {
+      "name": "New Testament",
+      "abbreviation": "NT",
+      "books": [
+        {
+          "name": "Matthew",
+          "abbreviations": ["Mt", "Mat", "Matt"],
+          "chapters": [
+            {
+              "number": 1,
+              "verses": [
+                {
+                  "number": 1,
+                  "text": "The record of genealogy of Jesus the Messiah, the Son of David, the son of Abraham:"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
