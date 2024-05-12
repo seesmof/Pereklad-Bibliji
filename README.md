@@ -21,3 +21,9 @@ Basic Ukrainian Bible BUB
 Living Ukrainian Bible LUB
 
 Жива Українська Біблія ЖУБ
+
+#### MSG
+
+Message Ukrainian Bible MUB
+
+Звістка Українська Біблія ЗУБ
