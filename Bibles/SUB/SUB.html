@@ -6,7 +6,7 @@
     <title>Standard Ukrainian Bible (SUB)</title>
     <style>
       body {
-        font-family: Georgia, "Times New Roman", Times, serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
       * {
         box-sizing: border-box;
@@ -17,44 +17,80 @@
         text-align: center;
         font-size: 1.5rem;
       }
+      .VerseNumber {
+        font-weight: bold;
+        font-size: 0.6rem;
+      }
+      .FirstVerseNumber {
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
+    <section class="Settings" style="display: flex; gap: 1rem">
+      <!-- toggle verse numbers on and off -->
+      <div>
+        <input type="checkbox" id="VerseNumbersToggle" />
+        <label for="VerseNumbersToggle">Verse Numbers</label>
+      </div>
+
+      <!-- toggle footnotes on and off -->
+      <div>
+        <input type="checkbox" id="FootnotesToggle" />
+        <label for="FootnotesToggle">Footnotes</label>
+      </div>
+
+      <!-- toggle headings on and off -->
+      <div>
+        <input type="checkbox" id="HeadingsToggle" />
+        <label for="HeadingsToggle">Headings</label>
+      </div>
+
+      <!-- toggle cross-references on and off -->
+      <div>
+        <input type="checkbox" id="CrossReferencesToggle" />
+        <label for="CrossReferencesToggle">Cross References</label>
+      </div>
+
+      <!-- toggle Red Letter on and off -->
+      <div>
+        <input type="checkbox" id="RedLetterToggle" />
+        <label for="RedLetterToggle">Red Letter</label>
+      </div>
+    </section>
+
     <main class="Bible">
-      <section class="Testament" id="OT">
-        <article class="Book" id="Gen" number="1" name="Genesis"></article>
-      </section>
+      <section class="Testament" id="OT"></section>
       <section class="Testament" id="NT">
         <article class="Book" id="Matt" number="1" name="Matthew">
-          <h3 class="Title">The Gospel of Matthew</h3>
+          <h3 class="Title">Євангеліє від Матвія</h3>
           <div class="Chapter" id="Matt.1" number="1">
-            <h4 class="Heading">The Genealogy of Jesus the Messiah</h4>
-            <p>
+            <h4 class="Heading">Родовід Ісуса Месії</h4>
+            <p class="Paragraph">
               <span class="Verse" id="Matt.1.1" number="1">
-                The record of genealogy of Jesus the Messiah, the Son of David,
-                the son of Abraham:
+                Запис родоводу Ісуса Месії, сина Давида, сина Авраама:
               </span>
             </p>
-            <p>
-              <span class="Verse" id="Matt.1.2" number="2"
-                >Abraham fathered Isaac, Isaac fathered Jacob, and Jacob
-                fathered Judah and his brothers.</span
-              >
-              <span class="Verse" id="Matt.1.3" number="3"
-                >Judah fathered Perez and Zerah by Tamar, Perez fathered Hezron,
-                and Hezron fathered Ram.</span
-              >
-              <span class="Verse" id="Matt.1.4" number="4"
-                >Ram fathered Amminadab, Amminadab fathered Nahshon, and Nahshon
-                fathered Salmon.</span
-              >
-              <span class="Verse" id="Matt.1.5" number="5"
-                >Salmon fathered Boaz by Rahab, Boaz fathered Obed by Ruth, and
-                Obed fathered Jesse.</span
-              >
-              <span class="Verse" id="Matt.1.6" number="6"
-                >Jesse fathered David the king.</span
-              >
+            <p class="Paragraph">
+              <span class="Verse" id="Matt.1.2" number="2">
+                Abraham fathered Isaac, Isaac fathered Jacob, and Jacob fathered
+                Judah and his brothers.
+              </span>
+              <span class="Verse" id="Matt.1.3" number="3">
+                Judah fathered Perez and Zerah by Tamar, Perez fathered Hezron,
+                and Hezron fathered Ram.
+              </span>
+              <span class="Verse" id="Matt.1.4" number="4">
+                Ram fathered Amminadab, Amminadab fathered Nahshon, and Nahshon
+                fathered Salmon.
+              </span>
+              <span class="Verse" id="Matt.1.5" number="5">
+                Salmon fathered Boaz by Rahab, Boaz fathered Obed by Ruth, and
+                Obed fathered Jesse.
+              </span>
+              <span class="Verse" id="Matt.1.6" number="6">
+                Jesse fathered David the king.
+              </span>
             </p>
           </div>
         </article>
@@ -204,6 +240,75 @@
         28, 16, 24, 21, 28, 16, 16, 13, 6, 6, 4, 4, 5, 3, 6, 4, 3, 1, 13, 5, 5,
         3, 5, 1, 1, 1, 22,
       ];
+
+      const addVerseNumbers = () => {
+        const Verses = document.querySelectorAll(".Verse");
+        Verses.forEach((Verse) => {
+          const number = Verse.id.split(".")[Verse.id.split(".").length - 1];
+          if (number == 1) {
+            const numberElement = document.createElement("span");
+            numberElement.innerHTML = number;
+            numberElement.classList.add("FirstVerseNumber");
+            const verseText = Verse.innerHTML;
+            Verse.innerHTML = `${numberElement.outerHTML} ${verseText}`;
+          } else {
+            const numberElement = document.createElement("sup");
+            numberElement.innerHTML = number;
+            numberElement.classList.add("VerseNumber");
+            const verseText = Verse.innerHTML;
+            Verse.innerHTML = `${numberElement.outerHTML} ${verseText}`;
+          }
+        });
+      };
+
+      const togleVerseNumbers = () => {
+        const verseNumbersToggle = document.querySelector(
+          "input#VerseNumbersToggle"
+        );
+        const verseNumbers = document.querySelectorAll(".VerseNumber");
+        const firstVerses = document.querySelectorAll(".FirstVerseNumber");
+
+        if (verseNumbersToggle.checked) {
+          verseNumbers.forEach((Verse) => {
+            Verse.style.display = "none";
+          });
+          firstVerses.forEach((Verse) => {
+            Verse.style.display = "none";
+          });
+        } else {
+          verseNumbers.forEach((Verse) => {
+            Verse.style.display = "inline";
+          });
+          firstVerses.forEach((Verse) => {
+            Verse.style.display = "inline";
+          });
+        }
+      };
+
+      addVerseNumbers();
+
+      const verseNumbersToggle = document.querySelector(
+        "input#VerseNumbersToggle"
+      );
+      verseNumbersToggle.checked = true;
+      togleVerseNumbers();
+      verseNumbersToggle.addEventListener("change", togleVerseNumbers);
+
+      verseNumbersToggle.addEventListener("change", (event) => {
+        if (event.target.checked) {
+          document.querySelectorAll(".VerseNumber").forEach((Verse) => {
+            Verse.style.display = "none";
+          });
+          const firstVerse = document.querySelector(".FirstVerseNumber");
+          firstVerse.style.display = "none";
+        } else {
+          document.querySelectorAll(".VerseNumber").forEach((Verse) => {
+            Arrange.style.display = "inline";
+          });
+          const firstVerse = document.querySelector(".FirstVerseNumber");
+          firstVerse.style.display = "inline";
+        }
+      });
     </script>
   </body>
 </html>

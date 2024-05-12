@@ -1,0 +1,23 @@
+Philistines - Филистимці
+Amalekites - Амалекіти
+Canaanites - Ханаанці
+Moabites - Моавіти
+Midianites - Мідіянці
+Kenites - Кенійці
+Simeonites - Сімеоніти
+Ammonites - Амоніти
+Amorites - Амореї
+Perea - Перея
+Judah - Юда
+Judas - Юдас
+Iscariot - Іскаріот
+Hivites - Хивійці
+Girgashites - Ґірґашити
+Jebusites - Євусити
+Hittites - Хітити
+Perizzites - Перізеї
+Nephilim - Нефіліми
+Jericho - Ієріхо (Єрихон, Ієріхон)
+Joshua - Йошуа
+Jeshua - Єшуа
+Matthew - Матвій
