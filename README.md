@@ -1,19 +1,23 @@
-###### Extended Ukrainian Bible EUB
-###### Розширена Українська Біблія РУБ
+#### AMP
 
-AMP -> Ukrainian
+Extended Ukrainian Bible EUB
 
-###### Standard Ukrainian Bible SUB
-###### Стандартна Українська Біблія СУБ
+Розширена Українська Біблія РУБ
 
-NASB -> Ukrainian
+#### NASB
 
-###### Basic Ukrainian Bible BUB
-###### Проста Українська Біблія ПУБ
+Standard Ukrainian Bible SUB
 
-NCV -> Ukrainian 
+Стандартна Українська Біблія СУБ
 
-###### Living Ukrainian Bible LUB
-###### Жива Українська Біблія ЖУБ
+#### NCV
 
-NLT -> Ukrainian 
+Basic Ukrainian Bible BUB
+
+Проста Українська Біблія ПУБ
+
+#### NLT
+
+Living Ukrainian Bible LUB
+
+Жива Українська Біблія ЖУБ

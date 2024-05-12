@@ -4,3 +4,4 @@
 - on the page of course add some way to toggle the toggleable features from [here](./Planning%20out%20the%20XML%20schema.md) on and off
 - in JS we can use DomParser to read XML and render it in HTML
 - should use OSIS format for the Bible translation, here are the [docs](https://wiki.crosswire.org/Category:OSIS)
+- some [potentially useful discussions](https://groups.google.com/g/openscriptures/c/6axIs7JgDHI?pli=1)
