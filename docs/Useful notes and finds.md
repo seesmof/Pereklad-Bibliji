@@ -5,3 +5,5 @@
 - in JS we can use DomParser to read XML and render it in HTML
 - should use OSIS format for the Bible translation, here are the [docs](https://wiki.crosswire.org/Category:OSIS)
 - some [potentially useful discussions](https://groups.google.com/g/openscriptures/c/6axIs7JgDHI?pli=1)
+- USFM looks very good, most likely gonna be trying to translate using that one
+- wanna potentially make some additions to existing modern Ukrainian Bible translations by adding Red Letter, formatting in USFM, adding crossreferences and footntes maybe and open sourcing it
