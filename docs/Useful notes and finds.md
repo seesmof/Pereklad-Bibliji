@@ -7,3 +7,4 @@
 - some [potentially useful discussions](https://groups.google.com/g/openscriptures/c/6axIs7JgDHI?pli=1)
 - USFM looks very good, most likely gonna be trying to translate using that one
 - wanna potentially make some additions to existing modern Ukrainian Bible translations by adding Red Letter, formatting in USFM, adding crossreferences and footntes maybe and open sourcing it
+- on BibleGateway the NET translation or the New English Translation has lots of amazingly good translators footnotes
