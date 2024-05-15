@@ -8,3 +8,4 @@
 - USFM looks very good, most likely gonna be trying to translate using that one
 - wanna potentially make some additions to existing modern Ukrainian Bible translations by adding Red Letter, formatting in USFM, adding crossreferences and footntes maybe and open sourcing it
 - on BibleGateway the NET translation or the New English Translation has lots of amazingly good translators footnotes
+- from USFM we can convert to Word XML to preserve all the formatting and footnotes/crossreferences, then to Efinity Publisher
