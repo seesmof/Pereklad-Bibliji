@@ -1,51 +1,6 @@
-### Potential personal Bible translations from English
+<div align="center">
+<h3>Extended Ukrainian Bible EUB</h3>
+<em>Розширена Українська Біблія РАУ</em>
+</div>
 
-#### AMP
-
-Extended Ukrainian Bible EUB
-
-Розширена Українська Біблія РУБ
-
-#### NASB
-
-Standard Ukrainian Bible SUB
-
-Стандартна Українська Біблія СУБ
-
-#### NCV
-
-Basic Ukrainian Bible BUB
-
-Проста Українська Біблія ПУБ
-
-#### NLT
-
-Living Ukrainian Bible LUB
-
-Жива Українська Біблія ЖУБ
-
-#### MSG
-
-Ukrainian Message UMSG
-
-Звістка Українська Біблія ЗУБ
-
-### Existing translations with additions and corrections
-
-#### UBIO
-
-Ukrainian Bible Ivan Ohienko UBIO
-
-Переклад Івана Огієнка UBIO
-
-#### UMT
-
-Ukrainian Modern Translation UMT
-
-Свята Біблія Сучасною Мовою UMT
-
-#### CUV
-
-Contemporary Ukrainian Version CUV
-
-Біблія Турконяка CUV
+Перекладено з Американської Біблії [AMP](https://www.biblegateway.com/passage/?search=MK1&version=AMP)
