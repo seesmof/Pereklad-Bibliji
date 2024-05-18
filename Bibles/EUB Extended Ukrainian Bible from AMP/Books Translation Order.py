@@ -108,13 +108,15 @@ Target_Folder_Path = os.path.join(Current_Folder_Path, Target_Folder_Name)
 if not os.path.exists(Target_Folder_Path):
     os.mkdir(Target_Folder_Path)
 
-for Testament in ["Old", "New"]:
-    Target_File_Path = os.path.join(Target_Folder_Path, Testament + ".md")
+for Testament_Name in ["Old", "New"]:
+    Target_File_Path = os.path.join(
+        Target_Folder_Path, f"{Testament_Name}_Testament.md"
+    )
 
     with open(Target_File_Path, "w", encoding="utf-8") as Target_File:
         Chapters_Count = (
             Old_Testament_Chapters_Count
-            if Testament == "Old"
+            if Testament_Name == "Old"
             else New_Testament_Chapters_Count
         )
 
