@@ -101,9 +101,22 @@ New_Testament_Chapters_Count = dict(
     sorted(New_Testament_Chapters_Count.items(), key=lambda item: item[1], reverse=True)
 )
 
-Folder_Name = "Books Translation Order"
-Current_Directory = os.path.dirname(os.path.abspath(__file__))
-Target_Directory_Path = os.path.join(Current_Directory, Folder_Name)
+Target_Folder_Name = "Books Translation Order"
+Current_Folder_Path = os.path.dirname(os.path.abspath(__file__))
+Target_Folder_Path = os.path.join(Current_Folder_Path, Target_Folder_Name)
 
-if not os.path.exists(Target_Directory_Path):
-    os.mkdir(Target_Directory_Path)
+if not os.path.exists(Target_Folder_Path):
+    os.mkdir(Target_Folder_Path)
+
+for Testament in ["Old", "New"]:
+    Target_File_Path = os.path.join(Target_Folder_Path, Testament + ".md")
+
+    with open(Target_File_Path, "w", encoding="utf-8") as Target_File:
+        Chapters_Count = (
+            Old_Testament_Chapters_Count
+            if Testament == "Old"
+            else New_Testament_Chapters_Count
+        )
+
+        for Book_Name in Chapters_Count:
+            Target_File.write(f"- [ ] {Book_Name}\n")
