@@ -1,0 +1,27 @@
+- [ ] Matthew
+- [ ] Acts
+- [ ] Luke
+- [ ] Revelation
+- [ ] John
+- [ ] Mark
+- [ ] Romans
+- [ ] 1 Corinthians
+- [ ] 2 Corinthians
+- [ ] Hebrews
+- [ ] Galatians
+- [ ] Ephesians
+- [ ] 1 Timothy
+- [ ] 1 Thessalonians
+- [ ] James
+- [ ] 1 Peter
+- [ ] 1 John
+- [ ] Philippians
+- [ ] Colossians
+- [ ] 2 Timothy
+- [ ] 2 Thessalonians
+- [ ] Titus
+- [ ] 2 Peter
+- [ ] Philemon
+- [ ] 2 John
+- [ ] 3 John
+- [ ] Jude

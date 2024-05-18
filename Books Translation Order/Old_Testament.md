@@ -1,0 +1,39 @@
+- [ ] Psalms
+- [ ] Isaiah
+- [ ] Jeremiah
+- [ ] Genesis
+- [ ] Ezekiel
+- [ ] Job
+- [ ] Exodus
+- [ ] Numbers
+- [ ] 2 Chronicles
+- [ ] Deuteronomy
+- [ ] 1 Samuel
+- [ ] Proverbs
+- [ ] 1 Chronicles
+- [ ] Leviticus
+- [ ] 2 Kings
+- [ ] Joshua
+- [ ] 2 Samuel
+- [ ] 1 Kings
+- [ ] Judges
+- [ ] Hosea
+- [ ] Zechariah
+- [ ] Nehemiah
+- [ ] Ecclesiastes
+- [ ] Daniel
+- [ ] Ezra
+- [ ] Esther
+- [ ] Amos
+- [ ] Song of Solomon
+- [ ] Micah
+- [ ] Lamentations
+- [ ] Ruth
+- [ ] Jonah
+- [ ] Malachi
+- [ ] Joel
+- [ ] Nahum
+- [ ] Habakkuk
+- [ ] Zephaniah
+- [ ] Haggai
+- [ ] Obadiah
