@@ -1,6 +1,7 @@
 <div align="center">
-<h3>Extended Ukrainian Bible EUB</h3>
-<em>Розширена Українська Біблія РАУ</em>
+  <img src="./Cover.jpg" width=333 alt="Holy Bible cover image" />
 </div>
 
-Перекладено з Американської Біблії [AMP](https://www.biblegateway.com/passage/?search=MK1&version=AMP)
+**Бо Слово Боже живе і діяльне. Гостріше за будь-який двосічний меч, воно проникає навіть до розділення душі й духа, суглобів і кісток. Воно судить думки і наміри серця.**
+– Євреї 4:12
+
