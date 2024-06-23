@@ -23,8 +23,12 @@ def remove_usfm_tags(text: str) -> str:
         OUT:
         str: text with removed extra spacing
         """
-        text = text.replace("  ", " ")
-        return "\n".join(line.strip() for line in text.splitlines() if line.strip())
+        clean_text: str = " ".join(text.split())
+        lines: list[str] = [
+            line.strip() for line in clean_text.splitlines() if line.strip()
+        ]
+        clean_text = "\n".join(lines).strip()
+        return clean_text
 
     singles: list[str] = ["pmo", "m", "pi", "p", "b", "em"]
     levels: list[str] = ["q", "s"]
