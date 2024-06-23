@@ -1,5 +1,21 @@
+from html.parser import HTMLParser
+import io
 import os
 import re
+
+
+class HTML_Cleaner(HTMLParser):
+    def __init__(self) -> None:
+        self.reset()
+        self.strict: bool = False
+        self.convert_charrefs: bool = True
+        self.text: str = io.StringIO()
+
+    def handle_data(self, data: str) -> None:
+        self.text.write(data)
+
+    def get_data(self) -> str:
+        return self.text.getvalue()
 
 
 def remove_usfm_tags(text: str) -> str:
@@ -12,6 +28,20 @@ def remove_usfm_tags(text: str) -> str:
     OUT:
     str: text with removed USFM tags
     """
+
+    def remove_html_tags(text: str) -> str:
+        """
+        removes HTML tags from text
+
+        IN:
+        text (str): text to remove HTML tags from
+
+        OUT:
+        str: text with removed HTML tags
+        """
+        cleaner = HTML_Cleaner()
+        cleaner.feed(text)
+        return cleaner.get_data()
 
     def remove_extra_spacing(text: str) -> str:
         """
@@ -64,6 +94,7 @@ def remove_usfm_tags(text: str) -> str:
         )
         text = re.sub(surrounding_leave, r"\1", text)
 
+    text = remove_html_tags(text)
     text = remove_extra_spacing(text)
     return text
 
