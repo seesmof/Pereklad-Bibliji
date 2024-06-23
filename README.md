@@ -9,6 +9,6 @@
 
 Переклад Української Стандартної Біблії майже повністю ґрунтується на Берійській Стандартній Біблії (Berean Standard Bible), дякуючи Ісусу Христу Святому Господу нашому БОГУ Всемогутньому ✝️💝📿
 
-**Attribution Notice**
+[**Attribution Notice**](https://berean.bible/terms.htm)
 
 The Holy Bible, Berean Standard Bible, BSB is produced in cooperation with [Bible Hub](https://biblehub.com/), [Discovery Bible](https://discoverybible.com/), [OpenBible.com](https://openbible.com/), and the Berean Bible Translation Committee. This text of God's Word has been [dedicated to the public domain](https://creativecommons.org/publicdomain/zero/1.0/).
