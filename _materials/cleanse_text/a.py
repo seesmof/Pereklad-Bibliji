@@ -97,6 +97,9 @@ def remove_usfm_tags(text: str) -> str:
         )
         text = re.sub(surrounding_leave, r"\1", text)
 
+    reference_tag = r"\\r\s*\((.*?)\)"
+    text = re.sub(reference_tag, "", text)
+
     return text
 
 
@@ -112,8 +115,8 @@ def clean_text(text: str) -> str:
     """
 
     text = remove_html_tags(text)
-    text = remove_extra_spacing(text)
     text = remove_usfm_tags(text)
+    text = remove_extra_spacing(text)
 
     return text
 
