@@ -18,47 +18,50 @@ class HTML_Cleaner(HTMLParser):
         return self.text.getvalue()
 
 
+def remove_html_tags(text: str) -> str:
+    """
+    removes HTML tags from text
+
+    < text (str)
+        text to remove HTML tags from
+
+    > str
+        text with removed HTML tags
+    """
+
+    cleaner = HTML_Cleaner()
+    cleaner.feed(text)
+    return cleaner.get_data()
+
+
+def remove_extra_spacing(text: str) -> str:
+    """
+    removes extra spacing that is not needed
+
+    < text (str)
+        text to remove extra spacing from
+
+    > str
+        text with removed extra spacing
+    """
+    clean_text: str = " ".join(text.split())
+    lines: list[str] = [
+        line.strip() for line in clean_text.splitlines() if line.strip()
+    ]
+    clean_text = "\n".join(lines).strip()
+    return clean_text
+
+
 def remove_usfm_tags(text: str) -> str:
     """
     given text in USFM format, removes all the USFM tags
 
-    IN:
-    text (str): text in USFM format
+    < text (str)
+        text in USFM format
 
-    OUT:
-    str: text with removed USFM tags
+    > str
+        text with removed USFM tags
     """
-
-    def remove_html_tags(text: str) -> str:
-        """
-        removes HTML tags from text
-
-        IN:
-        text (str): text to remove HTML tags from
-
-        OUT:
-        str: text with removed HTML tags
-        """
-        cleaner = HTML_Cleaner()
-        cleaner.feed(text)
-        return cleaner.get_data()
-
-    def remove_extra_spacing(text: str) -> str:
-        """
-        removes extra spacing that is not needed
-
-        IN:
-        text (str): text to remove extra spacing from
-
-        OUT:
-        str: text with removed extra spacing
-        """
-        clean_text: str = " ".join(text.split())
-        lines: list[str] = [
-            line.strip() for line in clean_text.splitlines() if line.strip()
-        ]
-        clean_text = "\n".join(lines).strip()
-        return clean_text
 
     singles: list[str] = ["pmo", "m", "pi", "p", "b", "em"]
     levels: list[str] = ["q", "s"]
@@ -94,8 +97,24 @@ def remove_usfm_tags(text: str) -> str:
         )
         text = re.sub(surrounding_leave, r"\1", text)
 
+    return text
+
+
+def clean_text(text: str) -> str:
+    """
+    Clean the given text from all USFM, HTML tags and extra spacing
+
+    < text: str
+        The text to clean
+
+    > str
+        The cleaned text
+    """
+
     text = remove_html_tags(text)
     text = remove_extra_spacing(text)
+    text = remove_usfm_tags(text)
+
     return text
 
 
@@ -105,7 +124,7 @@ target_file_path: str = os.path.join(current_dir, "a.txt")
 with open(target_file_path, "r", encoding="utf-8") as file:
     text: str = file.read()
 
-clean_text: str = remove_usfm_tags(text)
+clean_text: str = clean_text(text)
 
 with open(target_file_path, "w", encoding="utf-8") as file:
     file.write(clean_text)
