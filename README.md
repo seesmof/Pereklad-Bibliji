@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Cover.jpg" width=333 alt="Holy Bible cover image" />
+  <img src="./actions/Cover.jpg" width=333 alt="Holy Bible cover image" />
 </div>
 
 **Бо Слово Боже живе і діяльне. Гостріше за будь-який двосічний меч, воно проникає навіть до розділення душі й духа, суглобів і кісток. Воно судить думки і наміри серця.**
