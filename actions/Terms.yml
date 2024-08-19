@@ -21,6 +21,7 @@ Amarna: Амарна
 Amen: Амінь; Амен
 Amminadab: Амінадав; Амінадаб
 Ammonites: Амоніти
+Amon: Амон
 Amorites: Амореї
 Amos: Амос; Амоус
 Andrew: Андреяс, Андрей, Андрій
@@ -36,6 +37,7 @@ Assyrians: Асирійці
 Augustus: Август
 BC (era): ДХ
 BYZ (The New Testament in the Original Greek, Byzantine Textform): БІЗ (Новий Завіт Оригінальною Грецькою, Бізантійська Текстформа)
+Babel: Вавель
 Babylon: Бабулон; Вавилон
 Babylonian: Бабулонець
 Babylonians: Бабулонці
@@ -140,7 +142,7 @@ Hermas: Хермас
 Herod: Херод; Херодес
 Hezekiah: Єзекія; Хезкіяху, Єхезкія, Єхезкіяху, Хезкія, Хезекія
 Hezron: Езрон; Хесром, Есром, Есрон
-Hiddekel: Хедекел; Хідекел
+Hiddekel: Хідекель; Хедекел, Хідекел
 Hittites: Хітити; Хетити
 Hivites: Хевіти; Хивійці
 Hormah: Хорма
@@ -157,6 +159,7 @@ JESUS: ІСУС; ІЄСУС
 Jacob: Яків; Яков
 James: Якім; Якобас, Якіб
 Jebusites: Євусити; Євус, Євусі
+Jeconiah: Єхоній; Яханіас
 Jehoshaphat: Йосафат; Іоасафат
 Jeremiah: Єремія; Єрмея, Єрмеяху, Ієреміяс, Єреміяс
 Jericho: Єріхо; Ієріхо, Єрихон, Ієріхон, Єрехо, Ієріхо
@@ -166,12 +169,13 @@ Jesse: Єсей; Ієйсай, Ієссай, Єсай
 Jesuit: Єзуіт
 Jew: Юдей
 Job: Йов
-Joel: Йоел; Йоейл, Йоеіл, Йоель, Іоел, Іоель, Йоель
+Joel: Йоель; Йоел, Йоейл, Йоеіл, Йоель, Іоел, Іоель, Йоель
 John the Baptist: Йоан Хреститель
 John: Йоан; Йоханан, Іоанес, Іоан, Іван
 Jonah: Йона; Іонас, Іона
 Joram: Йорам; Іорам
 Joshua: Йошуа; Єгошуа, Єгошуе, Єгошуа
+Josiah: Йосій; Іосіас
 Jotham: Йофам; Йоафам, Іоафам
 Juda: Іюда
 Judah: Юда
@@ -202,6 +206,7 @@ MT (Hebrew Masoretic Text, Westminster Leningrad Codex, Hebrew Masoretic Text, B
 Maccabean: Маккавейський
 Maccabees: Маккавея
 Malachi: Малахій; Малахі, Мелахі
+Manasseh: Манасій; Манасайс, Манасей
 Mark: Марк; Маркас, Марко
 Master: Владика
 Matthew: Матей; Мататей
@@ -265,12 +270,13 @@ Salmon: Салмон
 Samaria: Самарія
 Samarian: Самарянин
 Samarians: Самаряни
-Samuel: Самуїл; Самуель, Самуел, Шемуел, Семуель, Шемуель
+Samuel: Самуель; Самуїл, Самуель, Самуел, Шемуел, Семуель, Шемуель
 Saul: Саул; Шяул, Шаул
 Saying (in Proverbs): Притча; Казання
 Sea of Galilee: Ґалілейське Море
 Selah: Шелах
 Shaddai: Шадай
+Shealtiel: Шалатіель; Салатієл
 Sheol: Шеол;
 Shepherd of Hermas: Пастир Хермаса
 Sidon: Сідон; Сідоун
@@ -309,6 +315,7 @@ Zebulun: Зевулун
 Zechariah: Захарій; Захер'я, Захер'яху, Захерій, Захаріяс, Захаріяс
 Zephaniah: Цефаній; Цефен'я, Цеван'я, Цефаная
 Zerah: Зара
+Zerubbabel: Зоровавель; Зарабабел, Зерубабел
 Ziklag: Ціклаґ; Ціклеґ, Циклеґ
 Zion: Сіон; Сійон, Сеон
 Zionism: Cіонізм
@@ -431,6 +438,7 @@ evangelization: євангелізація
 evangelize: евангелізувати
 every: кожний
 evil: зло;
+exile: вигнання
 expanse: простір
 face to face: віч на віч
 faction: поділ
@@ -652,3 +660,4 @@ woe: горе;
 woman of GOD: Божа жінка
 wonders: дива;
 you reap what you sow: що посієш, те й пожнеш
+Jehoiakim: Єхоякім
