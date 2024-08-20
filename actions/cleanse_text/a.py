@@ -63,7 +63,7 @@ def remove_usfm_tags(text: str) -> str:
         text with removed USFM tags
     """
 
-    singles: list[str] = ["pmo", "m", "pi", "p", "b", "em", "li1"]
+    singles: list[str] = ["pmo", "m", "pi", "p", "b", "em", "li1", "qt"]
     levels: list[str] = ["q", "s"]
     numbers: list[str] = ["c", "v"]
     surroundings_delete: list[str] = ["f", "x"]
@@ -99,6 +99,7 @@ def remove_usfm_tags(text: str) -> str:
 
     reference_tag = r"\\r\s*\((.*?)\)"
     text = re.sub(reference_tag, "", text)
+    text = text.replace("*", "")
 
     return text
 
