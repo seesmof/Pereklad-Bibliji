@@ -73,6 +73,7 @@ Charismatic: Харизматичний
 Christ: Христос;
 Christadelphian: Христадельфієць
 Christian Devotional Meditation: Християнська Побожна Медитація
+devotion: відданість
 Christian Reconstructionism: Християнський Реконструктивізм
 Christian dominionism: Християнський домініонізм
 Chronicles: літописи; хроніки
@@ -87,10 +88,10 @@ DSS (Dead Sea Scrolls): СММ (Сувої Мертвого Моря)
 Daniel: Даніель; Данієл, Даніел, Даниїл
 David: Давид
 Decapolis: Декаполіс
-Demetrius: Деметріас; Деметріос
+Demetrius: Димітрій; Деметріас, Деметріос
 Demiurge: Деміург
 Deuteronomy: Другозаконня; Второзаконня, Повторення Закону
-Diotrephes: Діотрефес; Діотрефес, Діотрефейс, Діотрефус
+Diotrephes: Діотреф; Діотрефес, Діотрефейс, Діотрефус
 Docetism: Докетизм
 ECM (Editio Critica Maior, Novum Testamentum Graecum): ЕКМ (Едітіо Крітіка Майор, Новум Тестаментум Ґрецум)
 Ecclesiast: Еклезіаст
@@ -121,13 +122,12 @@ Ezion-Geber: Еціон-Ґевер
 Ezra: Езра
 Flavius: Флавій
 GOC (Greek Orthodox Church, New Testament): ГПЦ (Грецька Православна Церква, Новий Завіт)
-Gaius: Ґаяс
 Galatia: Ґалатія, Галатія
 Galatian: Ґалат, Галат
 Galilee: Ґалілея; Ґаліл, Ґалілая, Ґалілаяс, Галілея
 Genesis: Генеза; Буття або Генезис
-Gentile: Неун; Іновір, Неєврей
-Gentiles: Неуни; Іновіри
+Gentile: Гой; Поган
+Gentiles: Гої; Погани
 Gerasenes: Ґерасенос, Ґерасінос
 Gihon: Ґіхон;
 Girgashites: Ґірґаші; Ґірґашити
@@ -345,7 +345,7 @@ Ziklag: Ціклаґ; Ціклеґ, Циклеґ
 Zion: Сіон; Сійон, Сеон
 Zionism: Cіонізм
 Zophar: Зофар; Цофер, Цофар
-a man: людина
+a man: людина, муж
 a plant or plants: рослина
 abominable: огидний; мерзенний
 abomination: огида; мерзота
@@ -430,6 +430,7 @@ creature: створіння
 cry out: скрикнути
 cry: плакати
 cultivate: обробляти; культивувати
+customization: підлаштування
 darkness: темрява
 day: день
 debauchery: розпуста;
@@ -468,6 +469,7 @@ evangelize: евангелізувати
 every: кожний
 evil: зло;
 exalt: звеличувати
+executable file: виконуваник
 exile: вигнання
 expanse: простір
 face to face: віч на віч
@@ -513,6 +515,7 @@ hell: пекло;
 homeschool: домошкола
 homeschooling: домошколення
 honorable: почесно
+hotkey: галавіша (гаряча клавіша)
 hover: витати
 humble: смиренний
 humility: смирення
@@ -591,6 +594,7 @@ preach: проповідувати
 preacher: проповідник
 prefer: воліти
 preside over: головувати на
+preview: поперегляд (попередній перегляд)
 priest: священик;
 professing: конфесійний
 psycho-kinesis: психо-кінез
@@ -655,6 +659,7 @@ temple: храм
 temptation: спокуса
 testament: завіт
 testify: свідчити
+commend: похвалити
 testimony: свідчення
 the Garden of Eden: Сад Едену
 the breath of life: подих життя
@@ -699,5 +704,18 @@ woe: горе;
 woman of GOD: Божа жінка
 wonders: дива;
 work: робота
-worship: вклоніння
+worship: поклонятися
+worshipping: поклоніння
+worshipper: поклонник
 you reap what you sow: що посієш, те й пожнеш
+self-righteous: самоправедний
+Gaius: Ґаяс; Ґайос
+truth: правда
+ought to: слід
+should: варто
+must: маємо
+need to: треба
+instruction: вказівка
+malice: зловість, злість, злоба
+slander: наклепи
+imitate: копіювати
