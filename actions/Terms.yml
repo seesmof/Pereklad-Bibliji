@@ -47,6 +47,7 @@ Babel: Вавель
 Babylon: Вавилон
 Babylonian: Вавилонець
 Babylonians: Вавилонці
+Balaam: Валаам
 Bar Kokhba: Бар-Кохба; Бар Кохба,
 Barnabas: Варнава; Барнабас
 Bat Mitzvah: Бат Міцва
@@ -66,6 +67,7 @@ Binitarianism: Бінітаризм
 Boaz: Боаз; Баяс, Боез
 Caesar: Цезар
 Caesar’s Messiah: Месія Цезаря
+Cain: Каїн
 Canaan: Канаан; Кєнеен, Кенеен
 Canaanite: Канаанець
 Canaanites: Канаанці
@@ -96,6 +98,7 @@ Demiurge: Деміург
 Deuteronomy: Другозаконня; Второзаконня, Повторення Закону
 Diotrephes: Діотреф; Діотрефес, Діотрефейс, Діотрефус
 Docetism: Докетизм
+Doxology: Доксологія
 ECM (Editio Critica Maior, Novum Testamentum Graecum): ЕКМ (Едітіо Крітіка Майор, Новум Тестаментум Ґрецум)
 Ecclesiast: Еклезіаст
 Ecclesiastes: Еклезіаста
@@ -140,6 +143,7 @@ Gnostic: Гностик
 Gnosticism: Гностицизм
 God: Бог
 Godhead: Божество
+Gomorrah: Гомора; Гоморра
 Good News: Добра Звістка
 Gospel: Євангеліє (воно, не вона і не він)
 Great Commission: Велике Доручення
@@ -210,6 +214,7 @@ Khabbati: Хабаті
 King: Цар
 Kingdom Now theology: Теологія Царство Зараз
 Kings: царі
+Korah: Кора
 LORD of Hosts: ГОСПОДЬ Сил
 LORD of lords: ПАН панів
 LORD: ГОСПОДЬ; ПАН
@@ -314,6 +319,7 @@ Simon: Симон
 Sinai: Сінай; Сина, Сіна
 Sion: Сіон
 Sittiu: Сітіу
+Sodom: Содом; Содома
 Solomon: Соломон
 Star of David: Зірка Давида
 Substitute: Заміна
@@ -351,19 +357,22 @@ Ziklag: Ціклаґ; Ціклеґ, Циклеґ
 Zion: Сіон; Сійон, Сеон
 Zionism: Cіонізм
 Zophar: Зофар; Цофер, Цофар
+a being: істота
 a man: людина, муж
 a plant or plants: рослина
+a rebuke: докір
+a slander: обмова; наклеп
 abominable: огидний; мерзенний
 abomination: огида; мерзота
 accomplish: здійснити
 according to: від
-an account (of): оповідь; розповідь
 admonish: застерігати
 admonition: застереження
 adoptionism: адопціонізм;
 adultery: перелюб
 age: ера
 alas: біда; нена
+an account (of): оповідь; розповідь
 and it was so: і було так
 and there was evening, and there was morning: і був вечір, і був ранок
 and: і, та, а
@@ -380,6 +389,7 @@ appeal: заклик
 appear (Ген 1:9): явитися
 ark (Noahʼs): судно (Ноя)
 ark (of the LORD): скриня (ГОСПОДНЯ)
+ascension: вознесіння
 assembly: зібрання
 astrolatry: астролянство
 astrotheology: астротеологія
@@ -397,7 +407,6 @@ because: адже, оскільки
 beginning: початок
 begotten: породжений;
 behold: ось; се
-a being: істота
 believer: вірянин; віруючий
 beloved: любий
 beware: стерегтися; остерігатися
@@ -430,6 +439,7 @@ communion: причастя
 completed: завершено
 compulsion: примус
 concordance: конкорданс
+condemnation: осуд
 contain: містити
 contemplative prayer: споглядальна молитва
 conviction: звинувачення | переконання
@@ -450,6 +460,7 @@ deceive: обманути; ошукати
 deceiver: обманщик; ошуканець, ошукач
 decree and declare: постановляй і проголошуй
 deed: діло
+defilement: спаплюження
 delight: насолода
 depravity: порочність
 devotion: відданість
@@ -465,9 +476,12 @@ disobedient: неслухняний
 ditheism: дитеїзм
 division: розбрат; розділення
 doctrine: доктрина
+dreamer: мрійник
 drunkenness: пияцтво
 dry land: суша
 dualism: дуалізм
+earnest: серйозний
+earnestly: серйозно
 earth: Земля
 elder: старець; старішина
 elders: старці;
@@ -516,6 +530,7 @@ friends: друзі
 from there: звідти
 fruit: плід; фрукт
 full-grown: зрілий
+fully aware: добре знати
 genealogy: генеалогія
 gentleness: лагідність
 gift: дар
@@ -544,14 +559,17 @@ hypostatic union: іпостасний союз
 idolatry: ідолянство
 idolization: ідолізація
 imitate: копіювати
+immorality: аморальність
 impurity: нечистісь;
 in image of GOD: на образ БОЖИЙ
 in the beginning: на початку
 in the day: в день, того дня
 incarnate: втілений
 indeed: дійсно
+indulge in: віддаватися
 instruction: вказівка
 intercede: заступатися; благати, прохати
+irrational: нерозумний
 jealousy: ревнощі
 joy: радість
 judgement: суд
@@ -619,6 +637,7 @@ perish: гинути, загинути, згинути
 persecution: цькування
 pestilence: епідемія
 petition: прохання, благання
+plague: чума, пошесть
 plant: рослина
 pleasing: приємний
 plot: змовлятися
@@ -636,12 +655,12 @@ prisoner: вʼязень
 professing: конфесійний
 prosper: процвітати
 psycho-kinesis: психо-кінез
+punishment: покарання
 pure: пречистий
 rabbi (Judaism): рабин
 rage: лють
 realm: світ; простір
-a rebuke: докір
-to rebuke: докоряти
+rebelion: бунт
 reign: панувати
 remark: ремарка; зауваження, репліка, коментар
 rivalry: суперництво
@@ -665,9 +684,9 @@ self-righteous: самоправедний
 send greetings: слати вітання;
 separate: відділити; розділити, відокремити
 serpent: вуж; змій
+servant: слуга
 set: ставити
 sexual immorality: блуд;
-immorality: аморальність
 shepherd: пастир
 should: варто
 shrub: кущ
@@ -677,8 +696,6 @@ signs: знаки
 sin nature: гріховна природа
 sir: пан; добродій, сер
 sky: небо
-a slander: обмова; наклеп
-to slander: обмовляти
 snake: змія
 so: тож
 soaking prayer: молитва занурення
@@ -713,17 +730,26 @@ theist: теїст
 then: тоді
 theologian: теолог
 theology: теологія;
+therefore: тому
 through faith: через віру
 thus: отже
 tithe: крихта
 tithing: крихтіння, крихтіти
+to contend: боротися
 to convict: звинуватити
+to defile: паплюжити
+to dispute: сперечатися
 to form: утворити
 to homeschool: домошколити
 to mark: позначати
 to place: помістити; розмістити
 to plant: садити
+to pursue: гонитися; прагнути
+to rebuke: докоряти
 to rule: правити
+to seek: шукати
+to slander: обмовляти
+to thirst: спрагнути
 to wrong: скривдити
 tree of life: дерево життя
 tree of the knowledge of good and evil: дерево знання добра і зла
@@ -736,6 +762,7 @@ trust in (Jesus): довіритися
 truth: правда
 unevangelized: неєвангелізований
 ungodly: безбожник
+urge: закликати
 vast array: розмаїття
 vault: склепіння
 vegetation: зелень, рослини, рослинність
@@ -756,31 +783,5 @@ work: робота
 worship: поклонятися
 worshipper: поклонник
 worshipping: поклоніння
-you reap what you sow: що посієш, те й пожнеш
-servant: слуга
-urge: закликати
-to contend: боротися
-earnest: серйозний
-earnestly: серйозно
-condemnation: осуд
-fully aware: добре знати
-Sodom: Содом; Содома
-Gomorrah: Гомора; Гоморра
-indulge in: віддаватися
-to pursue: гонитися; прагнути
-to seek: шукати
-to thirst: спрагнути
-plague: чума, пошесть
-punishment: покарання
-therefore: тому
 yet: проте
-dreamer: мрійник
-to defile: паплюжити
-defilement: спаплюження
-ascension: вознесіння
-to dispute: сперечатися
-irrational: нерозумний
-Cain: Каїн
-Balaam: Валаам
-rebelion: бунт
-Korah: Кора
+you reap what you sow: що посієш, те й пожнеш
