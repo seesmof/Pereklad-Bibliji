@@ -43,12 +43,12 @@ Augustus: Август
 Azor: Азор; Адзор
 BC (era): ДХ
 BYZ (The New Testament in the Original Greek, Byzantine Textform): ВІЗ (Новий Завіт Оригінальною Грецькою, Візантійська Текстформа)
-Babel: Бабель
-Babylon: Бабулон; Вавилон
-Babylonian: Бабулонець
-Babylonians: Бабулонці
+Babel: Вавель
+Babylon: Вавилон
+Babylonian: Вавилонець
+Babylonians: Вавилонці
 Bar Kokhba: Бар-Кохба; Бар Кохба,
-Barnabas: Барнабас; Варнавас
+Barnabas: Варнава; Барнабас
 Bat Mitzvah: Бат Міцва
 Bathsheba: Бефшіба; Бефшеба
 Beersheba: Бершіба; Беершеба, Бершеба
@@ -103,7 +103,7 @@ Eden: Едем; Еден, Ейден, Іден
 Edom: Едом
 Edomite: Едоміт
 Edomites: Едоміти
-Egypt: Єгипт; Єгипет
+Egypt: Єгипет; Єгипт
 Egyptian: Єгиптянин
 Egyptians: Єгиптяни
 El: Ель; Ейл, Ел
@@ -143,7 +143,7 @@ Godhead: Божество
 Good News: Добра Звістка
 Gospel: Євангеліє (воно, не вона і не він)
 Great Commission: Велике Доручення
-Ha-Kotel: Ха-Котель
+Ha-Kotel: Ха-Котел
 Habakkuk: Авакук; Хавакаук, Хаваккук, Аваккук, Абаккук, Абакук
 Haggai: Хаґай; Кхеґай, Хеґай
 Hallelujah: Алелуя
@@ -186,7 +186,7 @@ Jesse: Єсей; Ієйсай, Ієссай, Єсай
 Jesuit: Єзуіт
 Jew: Юдей
 Job: Йов
-Joel: Йоель; Йоел, Йоейл, Йоеіл, Іоел, Іоель
+Joel: Йоел; Йоейл, Йоеіл, Іоел, Іоель
 John the Baptist: Йоан Хреститель
 John: Йоан; Йоханан, Іоанес, Іоан, Іван
 Jonah: Йона; Іонас, Іона
@@ -197,10 +197,10 @@ Josephus: Йосеф
 Joshua: Йошуа; Єгошуа, Єгошуе, Єгошуа
 Josiah: Йосій; Іосіас
 Jotham: Йофам; Йоафам, Іоафам
-Juda: Іюда
+Juda [OLD]: Іюда
 Judah: Юда
 Judas: Юдас
-Jude: Єуда
+Jude: Юд; Іюда
 Judea: Юдея
 Judges: Судді
 KING of kings: ЦАР царів
@@ -303,7 +303,7 @@ Samuel: Самуель; Самуїл, Самуель, Самуел, Шемуел
 Saul: Саул; Шяул, Шаул
 Saying (in Proverbs): Притча; Казання
 Sea of Galilee: Ґалілейське Море
-Selah: Шелах
+Selah: Шела
 Shaddai: Шадай
 Shealtiel: Шалатіель; Салатієл
 Sheol: Шеол;
@@ -346,7 +346,7 @@ Zebulun: Зевулун
 Zechariah: Захарій; Захерʼя, Захерʼяху, Захерій, Захаріяс, Захаріяс
 Zephaniah: Цефаній; Цефенʼя, Цеванʼя, Цефаная
 Zerah: Зара
-Zerubbabel: Зерубабель; Зарабабел
+Zerubbabel: Зерувавель; Зарабабел
 Ziklag: Ціклаґ; Ціклеґ, Циклеґ
 Zion: Сіон; Сійон, Сеон
 Zionism: Cіонізм
@@ -357,7 +357,7 @@ abominable: огидний; мерзенний
 abomination: огида; мерзота
 accomplish: здійснити
 according to: від
-account (of): оповідь; розповідь
+an account (of): оповідь; розповідь
 admonish: застерігати
 admonition: застереження
 adoptionism: адопціонізм;
@@ -397,7 +397,7 @@ because: адже, оскільки
 beginning: початок
 begotten: породжений;
 behold: ось; се
-being: істота
+a being: істота
 believer: вірянин; віруючий
 beloved: любий
 beware: стерегтися; остерігатися
@@ -640,7 +640,8 @@ pure: пречистий
 rabbi (Judaism): рабин
 rage: лють
 realm: світ; простір
-rebuke: докір; докоряти
+a rebuke: докір
+to rebuke: докоряти
 reign: панувати
 remark: ремарка; зауваження, репліка, коментар
 rivalry: суперництво
@@ -666,6 +667,7 @@ separate: відділити; розділити, відокремити
 serpent: вуж; змій
 set: ставити
 sexual immorality: блуд;
+immorality: аморальність
 shepherd: пастир
 should: варто
 shrub: кущ
@@ -675,7 +677,8 @@ signs: знаки
 sin nature: гріховна природа
 sir: пан; добродій, сер
 sky: небо
-slander: наклепи
+a slander: обмова; наклеп
+to slander: обмовляти
 snake: змія
 so: тож
 soaking prayer: молитва занурення
@@ -754,3 +757,30 @@ worship: поклонятися
 worshipper: поклонник
 worshipping: поклоніння
 you reap what you sow: що посієш, те й пожнеш
+servant: слуга
+urge: закликати
+to contend: боротися
+earnest: серйозний
+earnestly: серйозно
+condemnation: осуд
+fully aware: добре знати
+Sodom: Содом; Содома
+Gomorrah: Гомора; Гоморра
+indulge in: віддаватися
+to pursue: гонитися; прагнути
+to seek: шукати
+to thirst: спрагнути
+plague: чума, пошесть
+punishment: покарання
+therefore: тому
+yet: проте
+dreamer: мрійник
+to defile: паплюжити
+defilement: спаплюження
+ascension: вознесіння
+to dispute: сперечатися
+irrational: нерозумний
+Cain: Каїн
+Balaam: Валаам
+rebelion: бунт
+Korah: Кора
