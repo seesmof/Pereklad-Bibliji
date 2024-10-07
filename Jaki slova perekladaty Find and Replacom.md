@@ -1,3 +1,11 @@
+Prioritize:
+- Nouns 
+- Pronouns 
+- Adjectives 
+- Adverbs
+
+Don't translate verbs for now
+
 Translate:
 - Nouns: GOD, heavens, earth
 - Pronouns: HE, she, they
