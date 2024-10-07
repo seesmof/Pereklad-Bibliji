@@ -1,10 +1,8 @@
 Prioritize:
 - Nouns 
 - Pronouns 
-- Adjectives 
-- Adverbs
 
-Don't translate verbs for now
+Don't translate verbs for now, maybe adjectives also
 
 Translate:
 - Nouns: GOD, heavens, earth
