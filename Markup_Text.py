@@ -87,11 +87,12 @@ def mark_text(
             try:
                 if opens_count!=closes_count and text[i-1]!='\\w':
                     text[i]='\\w '+word
-                    closes_count+=1
+                    opens_count+=1
             except: pass
 
             if 1<=word.count('"')<2:
                 text[i]=re.sub(r'(\"[GH]\d*)',r'\1"\\w*',text[i])
+                closes_count+=1
 
         text=' '.join(text)
         return text
