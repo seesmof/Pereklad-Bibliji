@@ -9,7 +9,7 @@ target_file_path=os.path.join(revision_folder_path,'58PHM.USFM')
 def mark_text(
     given_text:str,
 ):
-    PUNCTUATION=r"!”#’$%&'()*+,-./:;<?=@>[\]^_`{|}~"
+    PUNCTUATION=r"!”#’$%&'(\")*+,-./:;<?=@>[\]^_`{|}~"
 
     def make_dashes_typographical(text):
         text=re.sub(r'(\s)-',r'\1—',text)
@@ -102,10 +102,9 @@ def mark_text(
 
     dashes_fixed=make_dashes_typographical(given_text)
     apostrophes_fixed=make_apostrophes_typographical(dashes_fixed)
-    # quotes_fixed=make_quotes_typographical(apostrophes_fixed)
-    accents_fixed=render_accent_marks(apostrophes_fixed)
-    strongs_handled=add_strong_tags(accents_fixed)
-    whitespaces_removed=remove_trailing_whitespaces(strongs_handled)
+    quotes_fixed=make_quotes_typographical(apostrophes_fixed)
+    accents_fixed=render_accent_marks(quotes_fixed)
+    whitespaces_removed=remove_trailing_whitespaces(accents_fixed)
     return whitespaces_removed
 
 with open(target_file_path,encoding='utf-8',mode='r') as f:
